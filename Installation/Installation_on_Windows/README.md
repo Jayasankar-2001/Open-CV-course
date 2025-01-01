@@ -36,3 +36,48 @@ conda create --name opencv-env
 ```bash
 conda activate opencv-env
 ```
+### Step 4: Install OpenCV
+
+1)Install OpenCV in your virtual environment by typing:
+
+```bash
+conda install -c conda-forge opencv
+```
+
+2)Press y when prompted and hit Enter.
+
+### Step 5: Verify OpenCV Installation
+
+1)Open Python within your virtual environment by typing:
+
+```bash
+python
+```
+
+2)Import OpenCV and check its version:
+
+```bash
+import cv2 as cv
+print(cv.__version__)
+```
+
+3)If a version number is displayed, the installation was successful.
+
+4)Exit Python by typing:
+
+```bash
+exit()
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
