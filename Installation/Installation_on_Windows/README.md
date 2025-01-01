@@ -23,6 +23,16 @@ This guide walks you through the installation of OpenCV in Windows using Anacond
 3)During the Advanced Installation Options, make sure to check the box "Add Anaconda3 to my PATH environment variable".
 
 ### Step 3: Create a Virtual Environment for OpenCV
-Open Command Prompt.
+1)Open Command Prompt.
 
-Create a new virtual environment by typing:
+2)Create a new virtual environment by typing:
+```bash
+conda create --name opencv-env
+```
+
+3)Press y when prompted and hit Enter.
+
+4)Activate the virtual environment by typing:
+```bash
+conda activate opencv-env
+```
