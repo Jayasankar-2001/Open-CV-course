@@ -13,3 +13,16 @@ This guide walks you through the installation of OpenCV in Windows using Anacond
 4)Provide your email address when prompted and click Submit.
 
 5)You will receive an email with a link to download the installation file. Click the link to download the file.
+
+### Step 2: Install Anaconda
+
+1)Locate the downloaded file and double-click it to start the installation.
+
+2)Follow the installation instructions provided in the setup.
+
+3)During the Advanced Installation Options, make sure to check the box "Add Anaconda3 to my PATH environment variable".
+
+### Step 3: Create a Virtual Environment for OpenCV
+Open Command Prompt.
+
+Create a new virtual environment by typing:
